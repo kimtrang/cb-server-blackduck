@@ -1,4 +1,5 @@
 #!/bin/bash
+# Black Duck v2019.4.1
 
 export WORKSPACE=$(pwd)/scansrc
 if [ ! -z ${WORKSPACE} ]; then
