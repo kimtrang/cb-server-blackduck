@@ -22,7 +22,6 @@ bash /home/couchbase/tools/Detect_Installation/detect.sh \
 --detect.cleanup=true \
 --detect.report.timeout=1800000000 \
 --detect.detector.search.depth=9 \
---detect.nuget.ignore.failure=true \
 --detect.pipenv.path=/usr/local/bin/pipenv \
 --detect.cpan.path=/usr/bin/cpan \
 --detect.cpanm.path=/usr/local/bin/cpanm \
