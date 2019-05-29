@@ -1,9 +1,9 @@
 #!/bin/bash 
 # Black Duck v2019.4.1
 
-export WORKSPACE=$(pwd)
-mkdir -p ${WORKSPACE}/thirdparty-src/deps
-cd ${WORKSPACE}/thirdparty-src/deps
+export WORKSPACE=$(pwd)/thirdparty-src/deps
+mkdir -p ${WORKSPACE}
+cd ${WORKSPACE}
 
 git clone git://github.com/couchbasedeps/breakpad.git
 git clone git://github.com/couchbasedeps/grpc.git

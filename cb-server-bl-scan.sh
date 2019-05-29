@@ -2,10 +2,7 @@
 # Black Duck v2019.4.1
 
 export WORKSPACE=$(pwd)/scansrc
-if [ ! -z ${WORKSPACE} ]; then
-    mkdir -p ${WORKSPACE}
-fi
-
+mkdir -p ${WORKSPACE}
 cd ${WORKSPACE}
 
 repo init -u git://github.com/couchbase/manifest  -m couchbase-server/mad-hatter.xml -g build,default
