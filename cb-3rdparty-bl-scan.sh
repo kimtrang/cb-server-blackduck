@@ -7,7 +7,6 @@ cd ${WORKSPACE}
 
 git clone git://github.com/couchbasedeps/breakpad.git
 git clone git://github.com/couchbasedeps/grpc.git
-git clone git://github.com/couchbasedeps/depot_tools.git
 git clone git://github.com/couchbasedeps/flatbuffers.git
 git clone git://github.com/couchbasedeps/protoc-gen-go.git
 
