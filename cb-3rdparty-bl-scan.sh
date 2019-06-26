@@ -9,7 +9,7 @@ mkdir -p ${WORKSPACE}/thirdparty-src/deps/go/src
 cd ${WORKSPACE}/thirdparty-src/deps
 
 echo "dep init ..."
-dep init
+/usr/local/go/bin/dep init
 
 pwd; ls -la
 
