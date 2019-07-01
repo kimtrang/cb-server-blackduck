@@ -46,6 +46,6 @@ bash <(curl -s https://detect.synopsys.com/detect.sh) \
 --detect.excluded.detector.types=CPAN,MAVEN,NPM,NUGET,PEAR,PIP,GRADLE \
 --logging.level.com.synopsys.integration=DEBUG \
 --blackduck.url=https://blackduck.build.couchbase.com \
---blackduck.username=sysadmin \
---blackduck.password=blackduck \
+--blackduck.username=xxxx \
+--blackduck.password=xxxx \
 --blackduck.trust.cert=true
