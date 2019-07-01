@@ -1,8 +1,6 @@
 #!/bin/bash 
 # Black Duck v2019.4.1
 
-#!/bin/bash
-
 rm -rf ${WORKSPACE}/thirdparty-src
 mkdir -p ${WORKSPACE}/thirdparty-src/deps
 cd ${WORKSPACE}/thirdparty-src/deps
@@ -38,7 +36,7 @@ bash <(curl -s https://detect.synopsys.com/detect.sh) \
 --detect.pipenv.path=/usr/local/bin/pipenv \
 --detect.cpan.path=/usr/bin/cpan \
 --detect.cpanm.path=/usr/local/bin/cpanm \
---detect.go.dep.path=/usr/local/go/bin/dep \
+--detect.go.dep.path=/usr/local/bin/go \
 --detect.maven.path=/usr/local/src/apache-maven/bin/mvn \
 --detect.npm.path=/usr/bin/npm \
 --detect.pear.path=/usr/bin/pear \
